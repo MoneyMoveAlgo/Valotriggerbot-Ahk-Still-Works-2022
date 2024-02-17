@@ -22,7 +22,7 @@ key_gui_hide	:=	"Home"
 key_exit	    := 	"End"
 key_hold	    :=	"XButton1"
 
-pixel_box	:=	7
+pixel_box	:=	12
 pixel_sens	:=	50
 pixel_color	:=	0xFEFE40
 tap_time	:=	150
@@ -104,7 +104,16 @@ GuiControl,2: hide,C3
 return
 
 loop1:
-PixelSearch()
+*space::
+	Loop                                                                                                                
+	{
+		GetKeyState,state,space,P
+		If state != U
+			Send,{space}              
+		Sleep,50
+		PixelSearch()
+	}
+
 return
 
 loop2:

@@ -17,6 +17,7 @@
 ### Press "END" to close the cheat.
 ### Press "HOME" to hide the gui.
 ### Press "LEFT" to activate fast click (You will shoot faster).
+### Hold "SPACE" to bunny hop
 ### Sensitivity settings on line 25
 
 ## Credits
