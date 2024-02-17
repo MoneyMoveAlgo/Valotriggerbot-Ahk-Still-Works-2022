@@ -6,7 +6,8 @@
 ## Requirments
 
 ### Resolution: Windowed fullscreen
-### Enemy highlight color: Yellow (3rd in the hightlight color list)
+### Enemy highlight color: Yellow Deuteranopia (3rd in the hightlight color list), can be changed on line 27
+### Fire key: P 
 
 ## How to use
 
@@ -16,10 +17,12 @@
 ### Press "END" to close the cheat.
 ### Press "HOME" to hide the gui.
 ### Press "LEFT" to activate fast click (You will shoot faster).
+### Sensitivity settings on line 25
 
 ## Credits
 
-### All were coded by Robin0248
+### main code by Robin0248
+### modified by jaaaaa132 to work on valorant 2024 
 
 ## License
 

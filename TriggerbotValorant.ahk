@@ -22,7 +22,7 @@ key_gui_hide	:=	"Home"
 key_exit	    := 	"End"
 key_hold	    :=	"XButton1"
 
-pixel_box	:=	5
+pixel_box	:=	7
 pixel_sens	:=	50
 pixel_color	:=	0xFEFE40
 tap_time	:=	150
@@ -121,7 +121,7 @@ return
 *~$LButton::
 sleep 100
 While GetKeyState("LButton", "P"){
-Click
+Send {P}
 sleep 10
 }
 return
@@ -134,7 +134,7 @@ If !(ErrorLevel)
 {
 If !GetKeyState("LButton")
 {
-click
+Send {P}
 sleep %tap_time%
 }
 }
